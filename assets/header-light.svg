@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="Markus Goetz — Edge-AI Researcher">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f7f8fc"/>
+      <stop offset="50%" stop-color="#eef0fb"/>
+      <stop offset="100%" stop-color="#e3e7f7"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3d59a1"/>
+      <stop offset="50%" stop-color="#5a3e8e"/>
+      <stop offset="100%" stop-color="#166775"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#c4cae0" stroke-width="0.5" opacity="0.5"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="320" fill="url(#bg)"/>
+  <rect width="1200" height="320" fill="url(#grid)"/>
+
+  <rect x="60" y="40" width="1080" height="240" rx="10" ry="10" fill="#ffffff" stroke="#c4cae0" stroke-width="1"/>
+  <circle cx="84"  cy="62" r="6" fill="#ff5f56"/>
+  <circle cx="104" cy="62" r="6" fill="#ffbd2e"/>
+  <circle cx="124" cy="62" r="6" fill="#27c93f"/>
+  <text x="600" y="66" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#7a809f">~/markus — zsh — 120×24</text>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18">
+    <text x="92" y="110" fill="#33691e">markus@taiwan</text><text x="244" y="110" fill="#343b58">:</text><text x="252" y="110" fill="#3d59a1">~</text><text x="265" y="110" fill="#343b58">$</text>
+    <text x="282" y="110" fill="#1d2030">whoami</text>
+
+    <text x="92" y="160" fill="url(#accent)" font-size="32" font-weight="700">Markus Götz</text>
+    <text x="92" y="188" fill="#343b58">M.S. Artificial Intelligence · Chang Gung University · Taiwan</text>
+
+    <text x="92" y="222" fill="#33691e">markus@taiwan</text><text x="244" y="222" fill="#343b58">:</text><text x="252" y="222" fill="#3d59a1">~</text><text x="265" y="222" fill="#343b58">$</text>
+    <text x="282" y="222" fill="#1d2030">cat focus.txt</text>
+
+    <text x="92" y="248" fill="#343b58">Reliable LLM deployment on edge devices · adversarial synthetic data · RAG · k8s observability</text>
+
+    <text x="92" y="274" fill="#33691e">markus@taiwan</text><text x="244" y="274" fill="#343b58">:</text><text x="252" y="274" fill="#3d59a1">~</text><text x="265" y="274" fill="#343b58">$</text>
+    <rect x="284" y="260" width="11" height="18" fill="#1d2030">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>

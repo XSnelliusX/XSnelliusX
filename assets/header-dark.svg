@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="Markus Goetz — Edge-AI Researcher">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1021"/>
+      <stop offset="50%" stop-color="#15173a"/>
+      <stop offset="100%" stop-color="#1f1147"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7aa2f7"/>
+      <stop offset="50%" stop-color="#bb9af7"/>
+      <stop offset="100%" stop-color="#7dcfff"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#2a2f5a" stroke-width="0.5" opacity="0.4"/>
+    </pattern>
+    <filter id="glow"><feGaussianBlur stdDeviation="2.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+
+  <rect width="1200" height="320" fill="url(#bg)"/>
+  <rect width="1200" height="320" fill="url(#grid)"/>
+
+  <!-- terminal chrome -->
+  <rect x="60" y="40" width="1080" height="240" rx="10" ry="10" fill="#0d1226" stroke="#3b3f6b" stroke-width="1"/>
+  <circle cx="84"  cy="62" r="6" fill="#ff5f56"/>
+  <circle cx="104" cy="62" r="6" fill="#ffbd2e"/>
+  <circle cx="124" cy="62" r="6" fill="#27c93f"/>
+  <text x="600" y="66" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#7a809f">~/markus — zsh — 120×24</text>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18">
+    <text x="92" y="110" fill="#9ece6a">markus@taiwan</text><text x="244" y="110" fill="#a9b1d6">:</text><text x="252" y="110" fill="#7aa2f7">~</text><text x="265" y="110" fill="#a9b1d6">$</text>
+    <text x="282" y="110" fill="#c0caf5">whoami</text>
+
+    <text x="92" y="160" fill="url(#accent)" font-size="32" font-weight="700" filter="url(#glow)">Markus Götz</text>
+    <text x="92" y="188" fill="#a9b1d6">M.S. Artificial Intelligence · Chang Gung University · Taiwan</text>
+
+    <text x="92" y="222" fill="#9ece6a">markus@taiwan</text><text x="244" y="222" fill="#a9b1d6">:</text><text x="252" y="222" fill="#7aa2f7">~</text><text x="265" y="222" fill="#a9b1d6">$</text>
+    <text x="282" y="222" fill="#c0caf5">cat focus.txt</text>
+
+    <text x="92" y="248" fill="#a9b1d6">Reliable LLM deployment on edge devices · adversarial synthetic data · RAG · k8s observability</text>
+
+    <text x="92" y="274" fill="#9ece6a">markus@taiwan</text><text x="244" y="274" fill="#a9b1d6">:</text><text x="252" y="274" fill="#7aa2f7">~</text><text x="265" y="274" fill="#a9b1d6">$</text>
+    <rect x="284" y="260" width="11" height="18" fill="#c0caf5">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
