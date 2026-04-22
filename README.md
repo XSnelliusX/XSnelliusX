@@ -14,7 +14,7 @@
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2600&pause=600&color=7AA2F7&center=true&vCenter=true&width=720&lines=Edge-AI+Researcher+%C2%B7+M.S.+Artificial+Intelligence;Phi+Tau+Phi+%E2%80%A2+GPA+4.0%2F4.0+%E2%80%A2+2%C3%97+IEEE+first+author;Reliable+LLMs+on+constrained+devices;Currently+based+in+New+Taipei,+Taiwan+(新北市,+台灣)" alt="What I do">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2600&pause=600&color=7AA2F7&center=true&vCenter=true&width=720&lines=Edge-AI+Researcher+%C2%B7+M.S.+Artificial+Intelligence;Phi+Tau+Phi+%E2%80%A2+GPA+4.0%2F4.0+%E2%80%A2+2%C3%97+IEEE+first+author;Reliable+LLMs+on+constrained+devices;Currently+in+New+Taipei%2C+Taiwan+%28%E6%96%B0%E5%8C%97%E5%B8%82%2C+%E5%8F%B0%E7%81%A3%29" alt="What I do">
   </a>
 </p>
 
@@ -160,7 +160,7 @@ mindmap
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=XSnelliusX&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&hide=html,css,scss,jupyter%20notebook,tex" alt="Top languages" width="48%">
-  <img src="https://github-profile-trophy.vercel.app/?username=XSnelliusX&theme=tokyonight&no-frame=true&row=1&column=7&margin-w=8" alt="Trophies" width="48%">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=XSnelliusX&theme=tokyo_night" alt="Profile summary" width="48%">
 </p>
 
 <p align="center">
@@ -203,7 +203,7 @@ mindmap
 
 A profile README that never changes is a billboard. This one is a tiny living system.
 
-- [`.github/workflows/metrics.yml`](.github/workflows/metrics.yml) runs `lowlighter/metrics` daily at 04:13 UTC, regenerates `metrics.svg`, and commits it back to `main`. Needs a `METRICS_TOKEN` PAT (read:user, public_repo) under repo secrets.
+- [`.github/workflows/metrics.yml`](.github/workflows/metrics.yml) runs `lowlighter/metrics` daily at 04:13 UTC, regenerates `metrics.svg`, and commits it back to `main`. Needs a `METRICS_TOKEN` repo secret — must be a **classic** PAT with `repo, read:user, read:org` scopes (the action does not yet support fine-grained tokens for the GraphQL API).
 - [`.github/workflows/snake.yml`](.github/workflows/snake.yml) runs `Platane/snk` daily at 04:27 UTC and pushes the snake SVGs to a dedicated `output` branch — the README pulls them via `raw.githubusercontent.com`, so `main` stays clean.
 - The header above is two hand-written SVGs (`assets/header-dark.svg`, `assets/header-light.svg`) swapped via `<picture>` + `prefers-color-scheme`. No external dependency, no rate limit.
 - The `mindmap` is GitHub-native Mermaid — no image, just markdown. Try editing it.
