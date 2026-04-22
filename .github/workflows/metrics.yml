@@ -1,3 +1,8 @@
+# NOTE: METRICS_TOKEN must be a *classic* personal access token with
+#       scopes: repo, read:user, read:org
+# Fine-grained PATs are not (yet) supported by lowlighter/metrics for the
+# GitHub GraphQL API and will fail with an explicit error in the action log.
+
 name: Generate metrics.svg
 
 on:
