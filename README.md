@@ -159,8 +159,7 @@ mindmap
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=XSnelliusX&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&hide=html,css,scss,jupyter%20notebook,tex" alt="Top languages" width="48%">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=XSnelliusX&theme=tokyo_night" alt="Profile summary" width="48%">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=XSnelliusX&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&hide=html,css,scss,jupyter%20notebook,tex" alt="Top languages">
 </p>
 
 <p align="center">
