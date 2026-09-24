@@ -20,31 +20,23 @@
   &nbsp;
   <a href="https://xsnelliusx.github.io"><img src="https://img.shields.io/badge/Portfolio-xsnelliusx.github.io-bb9af7?style=for-the-badge&logo=astro&logoColor=white" alt="Portfolio"></a>
   <a href="https://www.linkedin.com/in/markus-goetz-ai"><img src="https://img.shields.io/badge/LinkedIn-markus--goetz--ai-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="https://doi.org/10.1109/TSC.2026.3679374"><img src="https://img.shields.io/badge/IEEE_TSC-LEMON-005a9c?style=for-the-badge&logo=ieee&logoColor=white" alt="LEMON DOI"></a>
 </p>
 
 ---
 
 ## `> whoami`
 
-I'm **Markus Götz** — a German engineer who fell hard for Taiwan during a 2023 exchange and stayed for an M.S. in Artificial Intelligence at **Chang Gung University** (GPA **4.0 / 4.0**, **Phi Tau Phi** honor society — top 3% of all M.S. students nationwide).
+I'm **Markus Götz** — a German engineer who fell hard for Taiwan during a 2023 exchange and stayed for an M.S. in Artificial Intelligence at **Chang Gung University** (GPA **4.0 / 4.0**, **Phi Tau Phi** honor society — top 3% of all M.S. students nationwide). Now I'm building a permanent career in **Taiwan**
 
-Before the AI pivot I spent **three years inside safety-critical aviation** at Frequentis Comsoft as part of a German dual-study program (B.S. Computer Science, GPA **4.0 / 4.0**) — Java, real-time ADS-B sensor fusion, the kind of code where "it works on my machine" is not a sentence anyone is allowed to say. That mindset is the lens I bring to AI work today: **deployment realism over benchmark theatre.**
+Before the AI pivot I spent **three years with Air Traffic Management (ATM) solutions** at Frequentis Comsoft as part of a German dual-study program (B.S. Computer Science, GPA **4.0 / 4.0**) — Java, real-time ADS-B sensor fusion, the kind of code where "it works on my machine" is not a sentence anyone is allowed to say. I want to bring that same mindset into the AI world bridging stocastic operations into determenistic applications.
 
-My current research lives at the **edge-AI / LLM-reliability** intersection:
-
-- **InverseTune** — inverse synthetic training for reliable structured output in small language models. A 1B model reached **78.86% exact-match accuracy**, statistically matching Gemini 2.5 Flash. *Published, IEEE CCGrid 2026.* [`DOI 10.1109/CCGrid68966.2026.00080`](https://doi.org/10.1109/CCGrid68966.2026.00080)
-- **LEMON** — LLM-driven microservices orchestration & monitoring. *Published, IEEE Transactions on Services Computing, 2026.* [`DOI 10.1109/TSC.2026.3679374`](https://doi.org/10.1109/TSC.2026.3679374)
-- **LLM-NSMA** — intelligent monitoring for Kubernetes-based edge network services. *Published, IEEE ICCCI 2026; co-author.* [`DOI 10.1109/ICCCI70321.2026.11666509`](https://doi.org/10.1109/ICCCI70321.2026.11666509)
-- **STIM** — systematic SLM benchmarking on edge-class hardware. *Submitted, IEEE GLOBECOM 2026.*
-
-I'm also exploring local model optimization on Apple silicon and learning **Go**.
-
-I'm building a permanent career in **Taiwan** and looking for roles at the seam between research and shipped systems — edge inference, on-device LLMs, observability for ML, anything that demands both the paper and the post-mortem.
+I'm also exploring local model optimization on Apple silicon and currently im learning **Go**.
 
 ---
 
 ## 📚 Featured Research
+
+My research lives at the **edge-AI / LLM-reliability** intersection:
 
 <table>
   <tr>
@@ -52,7 +44,7 @@ I'm building a permanent career in **Taiwan** and looking for roles at the seam 
       <h3>InverseTune</h3>
       <sub><img src="https://img.shields.io/badge/IEEE_CCGrid-2026-005a9c?style=flat-square"></sub><br>
       <sub><a href="https://doi.org/10.1109/CCGrid68966.2026.00080"><img src="https://img.shields.io/badge/DOI-10.1109%2FCCGrid68966.2026.00080-bb9af7?style=flat-square"></a></sub>
-      <p align="left"><sub>Adversarial inverse synthetic-data framework that fine-tunes &le;4B SLMs to emit reliable structured JSON on edge hardware.</sub></p>
+      <p align="left"><sub>Inverse synthetic training for reliable structured output in small language models. A 1B model reached 78.86% exact-match accuracy, statistically matching Gemini 2.5 Flash.</sub></p>
     </td>
     <td width="33%" align="center" valign="top">
       <h3>LEMON</h3>
@@ -61,41 +53,17 @@ I'm building a permanent career in **Taiwan** and looking for roles at the seam 
       <p align="left"><sub>LLM-driven orchestration and deterministic-RAG monitoring layer for Kubernetes microservices, closing the loop between Prometheus telemetry and automated remediation.</sub></p>
     </td>
     <td width="33%" align="center" valign="top">
-      <h3>STIM</h3>
-      <sub><img src="https://img.shields.io/badge/IEEE_GLOBECOM-2026_(submitted)-6b7280?style=flat-square"></sub>
-      <p align="left"><sub>Systematic Tuning &amp; Inference Metrics — benchmarking SLMs from 0.5B&nbsp;to&nbsp;8B under edge constraints: latency, memory, and structured-output stability.</sub></p>
+      <h3>LLM-NSMA</h3>
+      <sub><img src="https://img.shields.io/badge/IEEE_ICCCI-2026-005a9c?style=flat-square"></sub><br>
+      <sub><a href="https://doi.org/10.1109/ICCCI70321.2026.11666509"><img src="https://img.shields.io/badge/DOI-10.1109%2FICCCI70321.2026.11666509-bb9af7?style=flat-square"></a></sub>
+      <p align="left"><sub>Intelligent monitoring and analysis for Kubernetes-based edge network services. Co-author.</sub></p>
     </td>
   </tr>
 </table>
 
 ---
 
-## 🧠 Research focus, in one diagram
-
-```mermaid
-mindmap
-  root((Edge-AI<br/>reliability))
-    Synthetic data
-      InverseTune
-      Adversarial inverse generation
-      Structured JSON guarantees
-    Retrieval
-      LEMON
-      Deterministic RAG
-      Qdrant + k8s telemetry
-    Benchmarking
-      STIM
-      Latency / memory envelopes
-      0.5B–8B sweep
-    Observability
-      Prometheus + Grafana
-      LLM-in-the-loop remediation
-      Aviation-grade rigor
-```
-
----
-
-## ⚙️ Tech I reach for
+## ⚙️ Technologies I used
 
 <table>
   <tr>
