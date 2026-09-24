@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="Markus Götz — AI researcher and software engineer">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="Markus Goetz — Edge-AI Researcher">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#f7f8fc"/>
@@ -34,7 +34,7 @@
     <text x="92" y="222" fill="#33691e">markus@taiwan</text><text x="244" y="222" fill="#343b58">:</text><text x="252" y="222" fill="#3d59a1">~</text><text x="265" y="222" fill="#343b58">$</text>
     <text x="282" y="222" fill="#1d2030">cat focus.txt</text>
 
-    <text x="92" y="248" fill="#343b58">Reliable local LLMs · Apple silicon optimization · edge deployment</text>
+    <text x="92" y="248" fill="#343b58">Reliable LLM deployment on edge devices · adversarial synthetic data · RAG · k8s observability</text>
 
     <text x="92" y="274" fill="#33691e">markus@taiwan</text><text x="244" y="274" fill="#343b58">:</text><text x="252" y="274" fill="#3d59a1">~</text><text x="265" y="274" fill="#343b58">$</text>
     <rect x="284" y="260" width="11" height="18" fill="#1d2030">
